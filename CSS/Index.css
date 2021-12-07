@@ -71,7 +71,7 @@
     body{
         background-image: url(Fondos/fondo\ index\ tablet.jpeg );
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: relative;
         background-position: center center;
         width: auto;
         height: auto;                                 /*Fondo de pantalla*/
@@ -131,6 +131,7 @@
     body{
         background-image: url(Fondos/Fondo\ Index.jpg );
         background-size: cover;
+        background-attachment: relative;
         width: auto;
         height: auto;                                 /*Fondo de pantalla*/
     }
