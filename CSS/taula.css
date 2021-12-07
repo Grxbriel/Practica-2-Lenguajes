@@ -105,6 +105,7 @@
         text-align: justify;
         border-color: black;
         position: relative;
+        top:40px;
         left: 100px;                                /*Tabla*/
         width: 80%;
         height: auto;
@@ -117,15 +118,17 @@
     }
     caption{
         font-size: 3em;
-        color: black;           /*Título de la tabla*/
+        color: black;       /*Título de la tabla*/
+        position:relative;
+        bottom: 40px;           
     }
     th{
-        font-size: 1em;        
+        font-size: 1.8em;        
         text-align: center;     /*Títulos de las columnas*/
         color: black;
     }
     td{
-        font-size: 0.8em;
+        font-size: 1.2em;
         text-align: center;     /*Contenido de la tabla*/
         font-weight: bold;
     }
@@ -137,7 +140,52 @@
 
 /*Para Pantallas grandes*/
 @media screen and (min-width:1400px){
-    
+    body{
+        background-image: url(Fondos/Fondo\ tabla.jpeg);
+        background-size: cover;   
+        background-attachment: fixed;
+        background-position: center center;                          /*Fondo de pantalla*/
+        position: relative;                 
+        
+    }
+    table{ 
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        border-color: black;
+        position: relative;
+        left: 100px; 
+        box-sizing: border-box;                               /*Tabla*/
+        width: 90%;
+        height: 150%;
+        top: 40px ;
+        background-color: transparent;
+        color: red;
+    }
+    .mision{
+        color: rgb(20, 236, 182);       /*Celdas de Misiones*/
+        background-color: white;
+    }
+    caption{
+        font-size: 3em;
+        color: black;
+        position: relative;
+        bottom: 50px;           /*Título de la tabla*/
+    }
+    th{
+        font-size: 2em;        
+        text-align: center;     /*Títulos de las columnas*/
+        color: black;
+    }
+    td{
+        font-size: 1.5em;
+        text-align: center;     /*Contenido de la tabla*/
+        font-weight: bold;
+    }
+    a{
+        position: fixed;                /*Imagen para volver al indice*/
+    }
+  
 }
 
 
