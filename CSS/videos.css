@@ -1,21 +1,21 @@
 *{
     font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
 }
-@media screen and (min-width:300px) and (max-width: 768px){
+@media screen and (max-width: 768px){
     body{
-        background-image: url(Fondos/fondo\ videos\ movil.jpgpo);
+        background-image: url(Fondos/fondo\ videos\ movil.jpg);
         background-size: cover;     /*Fondo de página*/
         background-attachment: fixed;
     } 
     
     .video1{
-        display: inline-flex;
+        display: flex;
         position: relative;
         top: 305px;             /*Trailer de bloodline*/
         left: 160px;  
     }
     .video2{
-        display: inline-flex;
+        display: flex;
         position: relative;
         left: 400px;        /*Trailer del juego*/
         top: 305px;
@@ -37,7 +37,7 @@
 }
 @media screen and (min-width:770px) and (max-width:1024px){
     body{
-        background-image: url(Fondos/Fondo\ videos.png);
+        background-image: url(Fondos/fondo\ videos\ movil.jpg);
         background-size: cover;     /*Fondo de página*/
         background-attachment: fixed;
         background-position: center center;
