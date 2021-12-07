@@ -2,11 +2,12 @@
 *{
     font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
     body{
         background-image: url(Fondos/fondo\ videos\ movil.jpg);
         background-size: cover;     /*Fondo de página*/
-        background-attachment: fixed;
+        background-attachment: relative;
+        background-position: center center;
     } 
     
     .video1{
@@ -36,9 +37,9 @@
         position:fixed;     /*Imagen para regresar al indice*/
     }
 }
-@media screen and (min-width:770px) and (max-width:1024px){
+@media screen and (min-width:760px) and (max-width:1024px){
     body{
-        background-image: url(Fondos/fondo\ videos\ movil.jpg);
+        background-image: url(Fondos/Fondo\ videos.png);
         background-size: cover;     /*Fondo de página*/
         background-attachment: fixed;
         background-position: center center;
