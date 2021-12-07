@@ -1,0 +1,107 @@
+*{
+    font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
+}
+@media screen and (max-width: 768px){
+    body{
+        background-image: url(Fondos/fondo\ videos\ movil.jpg);
+        background-size: cover;     /*Fondo de página*/
+        background-attachment: fixed;
+    } 
+    
+    .video1{
+        display: flex;
+        position: relative;
+        top: 305px;             /*Trailer de bloodline*/
+        left: 160px;  
+    }
+    .video2{
+        display: flex;
+        position: relative;
+        left: 400px;        /*Trailer del juego*/
+        top: 305px;
+    }
+    asside p{
+        display: inline-flex;
+        justify-content: flex-start;
+        position: relative;
+        left: 70px;
+        bottom: 225px;                  /*Cita*/
+        font-size: 1.1em;
+        color:blue;
+        font-style: italic;
+    }
+    a{
+        display: inline-flex;
+        position:fixed;     /*Imagen para regresar al indice*/
+    }
+}
+@media screen and (min-width:770px) and (max-width:1024px){
+    body{
+        background-image: url(Fondos/fondo\ videos\ movil.jpg);
+        background-size: cover;     /*Fondo de página*/
+        background-attachment: fixed;
+        background-position: center center;
+    } 
+    
+    .video1{
+        display: inline-flex;
+        position: relative;
+        top: 350px;             /*Trailer de bloodline*/
+        left: 20px;  
+    }
+    .video2{
+        display: inline-flex;
+        position: relative;
+        left: 290px;        /*Trailer del juego*/
+        top: 350px;
+    }
+    asside p{
+        display: inline-flex;
+        justify-content: flex-start;
+        position: relative;
+        bottom: 225px;                  /*Cita*/
+        font-size: 1.1em;
+        color:blue;
+        font-style: italic;
+    }
+    a{
+        display: flex;
+        position:relative;     /*Imagen para regresar al indice*/
+    }
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background-image: url(Fondos/Fondo\ videos.png);
+        background-size: cover;     /*Fondo de página*/
+        background-attachment: fixed;
+    } 
+    
+    .video1{
+        display: inline-flex;
+        position: relative;
+        top: 305px;             /*Trailer de bloodline*/
+        left: 160px;  
+    }
+    .video2{
+        display: inline-flex;
+        position: relative;
+        left: 400px;        /*Trailer del juego*/
+        top: 305px;
+    }
+    asside p{
+        display: inline-flex;
+        justify-content: flex-start;
+        position: relative;
+        left: 70px;
+        bottom: 225px;                  /*Cita*/
+        font-size: 1.1em;
+        color:blue;
+        font-style: italic;
+    }
+    a{
+        display: inline-flex;
+        position:fixed;     /*Imagen para regresar al indice*/
+    }
+}
+
+
