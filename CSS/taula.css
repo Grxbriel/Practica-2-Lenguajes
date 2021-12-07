@@ -1,44 +1,134 @@
 *{
     font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
-}   
-body{
-    background-image: url(Fondos/Fondo\ tabla.jpeg);
-    background-size: cover;   
-    background-attachment: fixed;
-    background-position: center center;                          /*Fondo de pantalla*/
-    position: relative;                 
-    
+} 
+
+@media screen and (max-width: 750px){
+    body{
+        background-image: url(Fondos/Fondo\ tabla.jpeg);
+        background-size: cover;   
+        background-attachment: fixed;
+        background-position: center center;                          /*Fondo de pantalla*/
+        position: relative;                 
+        
+    }
+    table{ 
+        justify-content: center;
+        text-align: justify;
+        border-color: black;
+        position: relative;
+        left: 100px;                                /*Tabla*/
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        color: red;
+    }
+    .mision{
+        color: rgb(20, 236, 182);       /*Celdas de Misiones*/
+        background-color: white;
+    }
+    caption{
+        font-size: 40pt;
+        color: black;           /*Título de la tabla*/
+    }
+    th{
+        font-size: 15pt;        
+        text-align: center;     /*Títulos de las columnas*/
+        color: black;
+    }
+    td{
+        font-size: 12pt;
+        text-align: center;     /*Contenido de la tabla*/
+        font-weight: bold;
+    }
+    a{
+        position: fixed;                /*Imagen para volver al indice*/
+    }
 }
-table{ 
-    justify-content: center;
-    text-align: justify;
-    border-color: black;
-    position: relative;
-    left: 100px;                                /*Tabla*/
-    width: 80%;
-    height: auto;
-    background-color: transparent;
-    color: red;
+@media screen and (min-width:760px) and (max-width:1024px){
+    body{
+        background-image: url(Fondos/Fondo\ tabla.jpeg);
+        background-size: cover;   
+        background-attachment: fixed;
+        background-position: center center;                          /*Fondo de pantalla*/
+        position: relative;                 
+        
+    }
+    table{ 
+        justify-content: center;
+        text-align: justify;
+        border-color: black;
+        position: relative;
+        left: 100px;                                /*Tabla*/
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        color: red;
+    }
+    .mision{
+        color: rgb(20, 236, 182);       /*Celdas de Misiones*/
+        background-color: white;
+    }
+    caption{
+        font-size: 40pt;
+        color: black;           /*Título de la tabla*/
+    }
+    th{
+        font-size: 15pt;        
+        text-align: center;     /*Títulos de las columnas*/
+        color: black;
+    }
+    td{
+        font-size: 12pt;
+        text-align: center;     /*Contenido de la tabla*/
+        font-weight: bold;
+    }
+    a{
+        position: fixed;                /*Imagen para volver al indice*/
+    }  
 }
-.mision{
-    color: rgb(20, 236, 182);       /*Celdas de Misiones*/
-    background-color: white;
-}
-caption{
-    font-size: 40pt;
-    color: black;           /*Título de la tabla*/
-}
-th{
-    font-size: 15pt;        
-    text-align: center;     /*Títulos de las columnas*/
-    color: black;
-}
-td{
-    font-size: 12pt;
-    text-align: center;     /*Contenido de la tabla*/
-    font-weight: bold;
+@media screen and (min-width: 1024px) {
+    body{
+        background-image: url(Fondos/Fondo\ tabla.jpeg);
+        background-size: cover;   
+        background-attachment: fixed;
+        background-position: center center;                          /*Fondo de pantalla*/
+        position: relative;                 
+        
+    }
+    table{ 
+        justify-content: center;
+        text-align: justify;
+        border-color: black;
+        position: relative;
+        left: 100px;                                /*Tabla*/
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        color: red;
+    }
+    .mision{
+        color: rgb(20, 236, 182);       /*Celdas de Misiones*/
+        background-color: white;
+    }
+    caption{
+        font-size: 40pt;
+        color: black;           /*Título de la tabla*/
+    }
+    th{
+        font-size: 15pt;        
+        text-align: center;     /*Títulos de las columnas*/
+        color: black;
+    }
+    td{
+        font-size: 12pt;
+        text-align: center;     /*Contenido de la tabla*/
+        font-weight: bold;
+    }
+    a{
+        position: fixed;                /*Imagen para volver al indice*/
+    }
+
 }
 
-a{
-    position: fixed;                /*Imagen para volver al indice*/
-}
+
+

@@ -2,7 +2,7 @@
 *{
     font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     body{
         background-image: url(Fondos/fondo\ videos\ movil.jpg);
         background-size: cover;     /*Fondo de página*/
