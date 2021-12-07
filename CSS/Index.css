@@ -1,0 +1,193 @@
+*{
+    font-family:'Comic Sans MS';            /*Tipo de letra de la página*/
+}
+@media screen and (min-width:300px) and (max-width: 768px){
+ 
+    body{
+        background-image: url(Fondos/Fondo\ index\ movil.jfif );
+        display: flex;
+        width: fit-content;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;                                /*Fondo de pantalla*/
+    }
+    header{
+        position: relative;
+        top:50px;
+    }
+    header h1{
+        background: linear-gradient(white,grey);
+        -webkit-background-clip: text;
+        color: transparent;                 /*El titulo*/
+        font-style: italic;
+        font-size: 3em;
+    }
+    header img{
+    display: flex;
+    width: 12%;
+    position: relative;     /*Logo dedsec en el header*/
+    left: 480px;
+    bottom: 120px;
+}
+    .páginas a:visited{             /*Color de enlaces ya visitados en la lista de páginas*/
+        color: white;             
+    }
+    ol li{
+        display: flex;
+        position: relative;
+        bottom: 50px;      /*Lista de enlaces a otras páginas*/
+        font-size: 1.5em;
+        list-style-type: none;
+        counter-increment: lista;
+    }
+    ol li:before{
+        color: white;                     /*Color del número de la lista*/
+        content: counter(lista) ". ";
+    }
+    footer{
+        display: flex;
+        flex-wrap: nowrap;
+        color: white;
+        position: relative;        /*El pie de página con mis datos*/
+        top: 550px;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    footer a:link{
+        color: white;     /*Correo electronico en el footer*/
+    }
+    .redesSociales{
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: flex-end;          /*Lista de redes sociales*/
+        width: auto;         
+        position: relative;
+        bottom: 380px;
+    }
+}
+@media screen and (min-width:770px) and (max-width:1024px){
+
+    body{
+        background-image: url(Fondos/fondo\ index\ tablet.jpeg );
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        width: auto;
+        height: auto;                                 /*Fondo de pantalla*/
+    }
+     header h1{
+        background: linear-gradient(white,grey);
+        -webkit-background-clip: text;
+        color: transparent;                 /*El titulo*/
+        font-style: italic;
+        font-size: 2em;
+    } 
+    header img{
+        display: flex;
+        width: 12%;
+        position: relative;     /*Logo dedsec en el header*/
+        left: 320px;
+        bottom: 80px;
+    } 
+    .páginas a:visited{             /*Color de enlaces ya visitados en la lista de páginas*/
+        color: white;             
+    }
+    ol li{
+        position: relative;
+        bottom: 100px;      /*Lista de enlaces a otras páginas*/
+        font-size: 1.2em;
+        list-style-type: none;
+        counter-increment: lista;
+    }
+    ol li:before{
+        color: white;                     /*Color del número de la lista*/
+        content: counter(lista) ". ";
+    }
+    footer{
+        display: flex;
+        color: white;
+        position: relative;        /*El pie de página con mis datos*/
+        top: 460px;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    footer a:link{
+        color: white;     /*Correo electronico en el footer*/
+    }  
+   
+    aside .redesSociales{
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: flex-end;          /*Lista de redes sociales*/
+        width: auto;         
+        position: fixed;
+        bottom: 700px;
+        left: 850px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background-image: url(Fondos/Fondo\ Index.jpg );
+        background-size: cover;
+        width: auto;
+        height: auto;                                 /*Fondo de pantalla*/
+    }
+     header h1{
+        background: linear-gradient(white,grey);
+        -webkit-background-clip: text;
+        color: transparent;                 /*El titulo*/
+        font-style: italic;
+        font-size: 3em;
+    } 
+    header img{
+        display: flex;
+        width: 14%;
+        position: relative;     /*Logo dedsec en el header*/
+        left: 480px;
+        bottom: 120px;
+    } 
+    .páginas a:visited{             /*Color de enlaces ya visitados en la lista de páginas*/
+        color: white;             
+    }
+    ol li{
+        position: relative;
+        bottom: 100px;      /*Lista de enlaces a otras páginas*/
+        font-size: 1.8em;
+        list-style-type: none;
+        counter-increment: lista;
+    }
+    ol li:before{
+        color: white;                     /*Color del número de la lista*/
+        content: counter(lista) ". ";
+    }
+    footer{
+        display: flex;
+        color: black;
+        position: relative;        /*El pie de página con mis datos*/
+        bottom: 50px;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    footer a:link{
+        color: black;     /*Correo electronico en el footer*/
+    }  
+   
+    .redesSociales{
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: flex-end;          /*Lista de redes sociales*/
+        width: auto;         
+        position: relative;
+        bottom: 400px;
+        left: 1150px;
+    }
+}
+
+
+
+
+
+

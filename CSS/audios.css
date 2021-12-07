@@ -1,0 +1,28 @@
+*{
+    font-family: "Comic Sans MS";
+}
+body{
+    background-image: url(Fondos/Fondo\ audios.jpg);
+    background-size: cover;                             /*Fondo de la pantalla*/
+    position: fixed;
+}
+header h1{
+    position:fixed;
+    left: 200px;
+    bottom: 525px;                  /*Título de la página*/
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50pt;
+    color: white;
+}
+a{
+    position:fixed;     /*Imagen para regresar al indice*/
+}
+.audio1{
+    position: fixed;        /*Primer audio*/
+    top: 380px;
+}
+.audio2{
+    position: fixed;        /*Segundo audio*/
+    top:280px;
+}

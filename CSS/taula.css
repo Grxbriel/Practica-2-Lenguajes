@@ -1,0 +1,42 @@
+*{
+    font-family: "Comic Sans MS"; /*Tipo de letra de la página*/
+}   
+body{
+    background-image: url(Fondos/Fondo\ tabla.jpeg);
+    background-size: cover;                             /*Fondo de pantalla*/
+    position: relative;                 
+    
+}
+table{ 
+    text-align: justify;
+    border-color: black;
+    position: relative;
+    left: 250px;                                /*Tabla*/
+    width: 850px;
+    height: 50px;
+    background-color: transparent;
+    color: red
+  
+}
+.mision{
+    color: rgb(20, 236, 182);       /*Celdas de Misiones*/
+    background-color: white;
+}
+caption{
+    font-size: 40pt;
+    color: black;           /*Título de la tabla*/
+}
+th{
+    font-size: 15pt;        
+    text-align: center;     /*Títulos de las columnas*/
+    color: black;
+}
+td{
+    font-size: 12pt;
+    text-align: center;     /*Contenido de la tabla*/
+    font-weight: bold;
+}
+
+a{
+    position: fixed;                /*Imagen para volver al indice*/
+}
