@@ -1,6 +1,8 @@
 *{
     font-family: "Comic Sans MS";
 }
+
+/*Para moviles*/
 @media screen and (max-width: 750px){
     body{
         background-image: url(Fondos/Fondo\ audios\ movil.jpg);
@@ -33,6 +35,7 @@
 
 }
 
+/*Para Tablets*/
 @media screen and (min-width:760) and (max-width:1024px){
     body{
         background-image: url(Fondos/Fondo\ audios.jpg);
@@ -67,6 +70,7 @@
 
 }
 
+/*Para Portatiles o PC*/
 @media screen and (min-width: 1024px) {
     body{
         background-image: url(Fondos/Fondo\ audios.jpg);

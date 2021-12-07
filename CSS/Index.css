@@ -1,6 +1,8 @@
 *{
     font-family:'Comic Sans MS';            /*Tipo de letra de la página*/
 }
+
+/*Para moviles*/
 @media screen and (min-width:300px) and (max-width: 750px){
  
     body{
@@ -67,6 +69,8 @@
         bottom: 380px;
     }
 }
+
+/*Para Tablets*/
 @media screen and (min-width:760px) and (max-width:1024px){
 
     body{
@@ -128,6 +132,8 @@
         left: 850px;
     }
 }
+
+/*Para Portatiles o PC*/
 @media screen and (min-width: 1024px) {
     body{
         background-image: url(Fondos/Fondo\ Index.jpg );
