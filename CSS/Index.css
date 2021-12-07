@@ -128,7 +128,7 @@
         justify-content: flex-end;          /*Lista de redes sociales*/
         width: auto;         
         position: fixed;
-        bottom: 700px;
+        bottom: 500px;
         left: 850px;
     }
 }
@@ -151,9 +151,10 @@
     } 
     header img{
         display: flex;
-        width: 14%;
+        box-sizing: border-box;
+        width: 12%;
         position: relative;     /*Logo dedsec en el header*/
-        left: 480px;
+        left: 450px;
         bottom: 120px;
     } 
     .páginas a:visited{             /*Color de enlaces ya visitados en la lista de páginas*/
@@ -192,6 +193,68 @@
         bottom: 400px;
         left: 1150px;
     }
+}
+
+/*Para Pantallas grandes*/
+@media screen and (min-width:1400px){
+    body{
+        background-image: url(Fondos/Fondo\ Index.jpg );
+        background-size: cover;
+        background-attachment: fixed;
+        width: auto;
+        height: auto;                                 /*Fondo de pantalla*/
+    }
+        header h1{
+        background: linear-gradient(white,grey);
+        -webkit-background-clip: text;
+        color: transparent;                 /*El titulo*/
+        font-style: italic;
+        font-size: 3em;
+    } 
+    header img{
+        display: flex;
+        box-sizing: border-box;
+        width: 12%;
+        position: relative;     /*Logo dedsec en el header*/
+        left: 500px;
+        bottom: 120px;
+    } 
+    .páginas a:visited{             /*Color de enlaces ya visitados en la lista de páginas*/
+        color: white;             
+    }
+    ol li{
+        position: relative;
+        bottom: 100px;      /*Lista de enlaces a otras páginas*/
+        font-size: 2em;
+        list-style-type: none;
+        counter-increment: lista;
+    }
+    ol li:before{
+        color: white;                     /*Color del número de la lista*/
+        content: counter(lista) ". ";
+    }
+    footer{
+        display: flex;
+        color: black;
+        position: relative;        /*El pie de página con mis datos*/
+        top: 50px;
+        font-size: 1.5em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    footer a:link{
+        color: black;     /*Correo electronico en el footer*/
+    }  
+    
+    .redesSociales{
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: flex-end;          /*Lista de redes sociales*/
+        width: auto;         
+        position: relative;
+        bottom: 440px;
+        left: 1300px;
+    }  
 }
 
 
