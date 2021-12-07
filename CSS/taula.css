@@ -111,16 +111,16 @@
         background-color: white;
     }
     caption{
-        font-size: 40pt;
+        font-size: 3em;
         color: black;           /*Título de la tabla*/
     }
     th{
-        font-size: 15pt;        
+        font-size: 1em;        
         text-align: center;     /*Títulos de las columnas*/
         color: black;
     }
     td{
-        font-size: 12pt;
+        font-size: 0.8em;
         text-align: center;     /*Contenido de la tabla*/
         font-weight: bold;
     }

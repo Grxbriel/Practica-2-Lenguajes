@@ -16,7 +16,7 @@
         bottom: 525px;                  /*Título de la página*/
         font-style: italic;
         text-decoration: underline;
-        font-size: 50pt;
+        font-size: 3em;
         color: white;
     }
     a{
@@ -48,7 +48,7 @@
         bottom: 550px;                  /*Título de la página*/
         font-style: italic;
         text-decoration: underline;
-        font-size: 50pt;
+        font-size: 4em;
         color: white;
     }
     a{
@@ -80,7 +80,7 @@
         bottom: 525px;                  /*Título de la página*/
         font-style: italic;
         text-decoration: underline;
-        font-size: 50pt;
+        font-size: 4em;
         color: white;
     }
     a{

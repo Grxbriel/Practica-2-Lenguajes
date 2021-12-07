@@ -24,6 +24,7 @@
     }
     header img{
     display: flex;
+    box-sizing: border-box;
     width: 12%;
     position: relative;     /*Logo dedsec en el header*/
     left: 480px;
